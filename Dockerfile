@@ -16,7 +16,8 @@ RUN apt-get update && \
       git \
       cmake \
       libboost-all-dev \
-      librocksdb-dev && \
+      librocksdb-dev \
+      libreadline-dev && \
     git clone https://github.com/turtlecoin/turtlecoin.git /opt/turtlecoin && \
     cd /opt/turtlecoin && \
     git checkout development && \
